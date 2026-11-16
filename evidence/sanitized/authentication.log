@@ -1,0 +1,12 @@
+2026-11-16T09:10:12-03:00 ns-ubuntu-srv01 sshd[1842]: Failed password for j.smith from 198.51.100.24 port 51231 ssh2
+2026-11-16T09:10:35-03:00 ns-ubuntu-srv01 sshd[1845]: Failed password for j.smith from 198.51.100.24 port 51232 ssh2
+2026-11-16T09:11:08-03:00 ns-ubuntu-srv01 sshd[1848]: Failed password for j.smith from 198.51.100.24 port 51233 ssh2
+2026-11-16T09:13:42-03:00 ns-ubuntu-srv01 sshd[1901]: Invalid user admin2 from 198.51.100.24
+2026-11-16T09:13:45-03:00 ns-ubuntu-srv01 sshd[1901]: Failed password for invalid user admin2 from 198.51.100.24 port 51240 ssh2
+2026-11-16T09:18:17-03:00 ns-ubuntu-srv01 sshd[2012]: Accepted password for j.smith from 203.0.113.45 port 52311 ssh2
+2026-11-16T09:18:18-03:00 ns-ubuntu-srv01 sshd[2012]: pam_unix(sshd:session): session opened for user j.smith(uid=1001) by (uid=0)
+2026-11-16T09:23:04-03:00 ns-ubuntu-srv01 sudo: j.smith : TTY=pts/0 ; PWD=/home/j.smith ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+2026-11-16T09:23:04-03:00 ns-ubuntu-srv01 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by j.smith(uid=1001)
+2026-11-16T09:23:05-03:00 ns-ubuntu-srv01 sudo: pam_unix(sudo:session): session closed for user root
+2026-11-16T09:31:22-03:00 ns-ubuntu-srv01 sshd[2012]: pam_unix(sshd:session): session closed for user j.smith
+2026-11-16T09:31:23-03:00 ns-ubuntu-srv01 sshd[2012]: Disconnected from user j.smith 203.0.113.45 port 52311
